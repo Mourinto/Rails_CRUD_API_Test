@@ -8,6 +8,6 @@ class Transaction < ApplicationRecord
   # validations
   validates_presence_of :category
   validates :price, presence: true, numericality: { only_integer: true }
-  validates :sq__ft, presence: true, numericality: { only_float: true }
+  validates :sq__ft, presence: true, numericality: { only_integer: false }
 
 end
