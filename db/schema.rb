@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171130212020) do
+ActiveRecord::Schema.define(version: 20171201075402) do
 
   create_table "transactions", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string  "street"
@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 20171130212020) do
     t.integer "beds"
     t.integer "baths"
     t.integer "sq__ft"
-    t.string  "type"
+    t.string  "category"
     t.date    "sale_date"
     t.integer "price"
     t.float   "latitude",  limit: 24

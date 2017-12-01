@@ -3,8 +3,9 @@ source 'https://rubygems.org'
 gem 'active_model_serializers', '~> 0.10.0.rc2'
 
 gem 'mysql2', '~> 0.3.18'
-gem 'will_paginate'
 
+#  pagination
+gem 'will_paginate'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.6'
 # Use sqlite3 as the database for Active Record
@@ -39,6 +40,8 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'rspec-rails'
+  gem 'shoulda-matchers', '~> 3.1'
+
 end
 
 group :development do
