@@ -70,6 +70,11 @@ GEM
     equalizer (0.0.11)
     erubis (2.7.0)
     execjs (2.7.0)
+    factory_girl (4.8.1)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.8.0)
+      factory_girl (~> 4.8.0)
+      railties (>= 3.0.0)
     ffi (1.9.18)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
@@ -219,6 +224,7 @@ DEPENDENCIES
   active_model_serializers (~> 0.10.0.rc2)
   byebug
   coffee-rails (~> 4.2)
+  factory_girl_rails
   grape
   jbuilder (~> 2.5)
   jquery-rails
